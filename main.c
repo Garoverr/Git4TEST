@@ -10,6 +10,9 @@
 
 int main(__attribute__((unused))int argc, __attribute__((unused)) char *argv[])
 {
-    write(1, "Hello World !\n",14); 
+    char *abdel = "Holla senior";
+
+    write(1, "Hello World !\n",14);
+    printf("%s\n", abdel);
     return 0;
 }
